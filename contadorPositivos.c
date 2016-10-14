@@ -4,7 +4,8 @@
 teclado, finaliza el conteo con cero usando ciclo while*/
 int main()
 {
-  int numero,contador;/*contador debe ser inicializado en cero*/
+  int numero,contador=0;/*contador debe ser inicializado en cero*/
+  system("color 80");
   printf("\n\tPrograma cuenta numeros enteros positivos\n");
   printf("\n\tIngrese un numero\t");
   scanf("%i",&numero);
